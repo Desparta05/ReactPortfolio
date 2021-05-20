@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './components/Header';
-import ProjectCard from './components/ProjectCard';
+import Header from '../components/Header';
+import ProjectCard from '../components/ProjectCard';
 // import Budgeting2Go from '../assets/Images/fullStackQuiz.PNG';
 import Stylewith from '../assets/Images/Style_Weather.PNG';
 import Trac2fit from '../assets/Images/trac2fithome.PNG';

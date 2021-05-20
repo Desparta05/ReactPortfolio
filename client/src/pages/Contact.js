@@ -1,4 +1,4 @@
-import Header from '../componets/Header';
+import Header from '../components/Header';
 import Resume from '../assets/Files/ResumePDF.pdf';
 
 export function Contact() {

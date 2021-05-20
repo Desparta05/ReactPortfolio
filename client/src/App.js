@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from './layouts/Main';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import './styles/App.css'
+// import './styles/App.css'
 
 
-function App() {
+export function App() {
   return (
     <BrowserRouter>
       <Routes>

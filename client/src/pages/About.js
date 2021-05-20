@@ -1,5 +1,5 @@
-import Header from './componets/Header';
-import ImgCard from './components/ImgCard';
+import Header from '../components/Header';
+import ImgCard from '../components/ImgCard';
 import Pic from '../assets/Images/A_0531.JPG';
 // import List from '../components/List';
 
