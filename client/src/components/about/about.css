@@ -21,6 +21,7 @@
     height: 100%;
     /* clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
     background-color: rgb(245, 39, 39);
+    border-radius: 30px 30px;
 }
 
 
@@ -41,4 +42,12 @@
 .a-right{
     flex: 1;
     position: relative;
+}
+
+.a-title{
+    font-weight: 400;
+}
+
+.a-sub{
+    margin: 20px 0px;
 }
