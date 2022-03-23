@@ -1,14 +1,17 @@
 import './contact.css'
-import Phone from "../../assets/Images/phoneIcon.png"
-import Email from "../../assets/Images/emailIcon.png"
-import Github from "../../assets/Images/githubIcon.png"
-import Linkedin from "../../assets/Images/linkedinIcon.png"
-import { useRef, useState } from 'react'
+import Phone from "../../assets/Images/phoneIcon.png";
+import Email from "../../assets/Images/emailIcon.png";
+import Github from "../../assets/Images/githubIcon.png";
+import Linkedin from "../../assets/Images/linkedinIcon.png";
+import { useContext, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import {ThemeContext} from "../../context";
 
 const Contact = () =>{
         const formRef = useRef()
         const [done, setDone] = useState(false) 
+        const theme = useContext(ThemeContext);
+        const darkMode = theme.state.darkMode;
 
         const handleSubmit = (e)=>{
             e.preventDefault()
@@ -53,10 +56,10 @@ const Contact = () =>{
                         But I'm always up for a new project.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Name" name='user_name'/>
-                        <input type="text" placeholder="Subject" name='user_subject'/>
-                        <input type="text" placeholder="Email" name='user_email'/>
-                        <textarea rows="5" placeholder='Message' name='message'/>
+                        <input style={{background: darkMode && "#333"}} type="text" placeholder="Name" name='user_name'/>
+                        <input style={{background: darkMode && "#333"}} type="text" placeholder="Subject" name='user_subject'/>
+                        <input style={{background: darkMode && "#333"}} type="text" placeholder="Email" name='user_email'/>
+                        <textarea style={{background: darkMode && "#333"}} rows="5" placeholder='Message' name='message'/>
                         <button>Submit</button>
                         {done && "Message Sent"}
                     </form>
