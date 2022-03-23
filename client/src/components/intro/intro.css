@@ -40,6 +40,7 @@
 .i-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+    position: relative;
 }
 
 @keyframes move {
@@ -55,6 +56,10 @@
     100%{
         transform: translateY(-200px);
     }
+}
+
+.i-dec{
+    width: 100%;
 }
 
 .i-title-item{
