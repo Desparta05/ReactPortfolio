@@ -7,7 +7,7 @@ const Portfolio = ({img, link, text}) => {
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
-                {text}
+                <div className="p-text">{text}</div> 
             </div>
             <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt="" className="p-img"/>
