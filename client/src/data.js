@@ -15,7 +15,7 @@ export const portfolios = [
         id:3,
         img: "https://lh3.googleusercontent.com/RDMKa1GtIj2BU_MkrWkLjLbpE-Kp25tl8knoAST2szAkRhFo6VtoOr6EGXbTRepYjJ8RPt-pDn-08WcSX2in4qptJbS7KYRgnleJSuuFk5gsUWz65Tz-wSH2zW1epsrAxf6lEWhtCi4OYq2E7or0dnYkOUx8INXJB5wJGiicEO-IhTKo-Nv1GsbqFLeSEvntf92ABxn3zoIYASEnLYYQumeJ6PS-vdE6supErCSd4O7qOAaIv-m_Y5_dHUYC3xKPXU4E25dgxmo8oGoG9GJUiz8mQ_F3rosPY_18_3ET-ZLiqnVfVdcZaKvn5LVckl2-hYkiYPgwXAj01B5xZdUpD4CieoNlg4kqhdV3e4YjWzqQeNSk7edEZ2ycurkfzXwi8bF6g9nHQQzLLFkZZfxosAjOf-4IFsfurQhcarttqV0kiQCcCgVezrR9auPIGnODNeJMiwUZUuBQrMk2omcVp8chhJrx8ile6Ho-J2P4HRqmS1fJ-FI31xjXTZF1MPAh_WR7LV0UTnb14bO3jjqQZovhTbJDN6iHlx9Hgu_utbd-ZYiIQTs-LEr6QeUp9KiPbM4lWFidhfgPYlWQy82COJXmFT0nnkHhrNkfySq9XYWIWtHnR1Gg88MUnuJ3lFRanp9Q31CITTNbTjC651JAc-dsCgmKabdaMk0rQIxq7Pk_-YgDB7Q-nBT_O3jLYRXLPMx5T2TBZo4fj29hXNJiGaJ9=w951-h929-no?authuser=0",
         link: "https://desparta05.github.io/Style-With-My-Weather-App/",
-        text: "Style with my Weather"
+        text: "Style w/ Weather"
     },
     {
         id:4,
