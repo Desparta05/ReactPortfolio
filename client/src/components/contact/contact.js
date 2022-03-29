@@ -40,14 +40,14 @@ const Contact = () =>{
                             <img src={Email} alt='' className='c-icon'/>              
                             Dennisjsacaza@gmail.com
                         </div>
-                        <div className='c-info-item'>
-                            <img src={Github} alt='' className='c-icon'/>              
+                        <a href="https://www.linkedin.com/in/dennis-sacaza-06627b145/" className='c-info-item'>
+                            <img src={Github} alt='' className='c-icon' />              
                             https://www.linkedin.com/in/dennis-sacaza-06627b145/
-                        </div>
-                        <div className='c-info-item'>
+                        </a>
+                        <a href="https://github.com/Desparta05" className='c-info-item'>
                             <img src={Linkedin} alt='' className='c-icon'/>              
                             https://github.com/Desparta05
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className='c-right'>
